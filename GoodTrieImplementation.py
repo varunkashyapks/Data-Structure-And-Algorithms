@@ -115,7 +115,7 @@ class Trie:
 if __name__ == '__main__':
     """ Example use """
     trie = Trie()
-    words = 'hello goodbye help gerald gold tea ted team to too tom stan standard money'
+    words = 'hello goodbye help gerald gold tea ted team to too withe xzc dfs standard money'
     for word in words.split():
         trie.add(word)
     print "'goodbye' in trie: ", trie.has_word('goodbye')
